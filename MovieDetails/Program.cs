@@ -13,7 +13,8 @@ namespace MovieDetails
             
             Movie movie=new Movie();
             Actor actor = new Actor();
-           
+            MovieCast movieCast = new MovieCast();
+          //  movieCast.FindMovie();
 
             do
             {
@@ -24,8 +25,12 @@ namespace MovieDetails
                 Console.WriteLine("4.Get ActorsDetails");
                 Console.WriteLine("5.Add Actors");
                 Console.WriteLine("6.Delete Actors");
+                Console.WriteLine("7.Add MoviCast");
+                Console.WriteLine("8.In this movie How Many Actors Playd role");
+                Console.WriteLine("9.This actor Played role in this movie");
 
-                Console.WriteLine("7.Exit");
+
+                Console.WriteLine("10.Exit");
 
                 Console.Write("\n Enter Your choice : ");
                 choice = Convert.ToInt32(Console.ReadLine());
@@ -56,7 +61,19 @@ namespace MovieDetails
                         Console.WriteLine(" -----------Delete Actor -----------");
                         actor.Delete();
                         break;
-                    case 7: return;
+                    case 7:
+                        Console.WriteLine("-------------Add MovieCast------------");
+                        movieCast.Add();
+                        break;
+                    case 8:
+                        
+                        movieCast.FindActor();
+                        break;
+                    case 9:
+                       
+                        movieCast.FindMovie();
+                        break;
+                    case 10: return;
                     default:
                         Console.WriteLine(" Your Choice Is Wrong");
                         break;

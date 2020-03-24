@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\MovieDetails\\MovieDetails.csproj": {}
+    "E:\\ProjectAnalysis\\MovieDetails\\MovieDetails.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\MovieDetails\\MovieDetails.csproj": {
+    "E:\\ProjectAnalysis\\MovieDetails\\MovieDetails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\MovieDetails\\MovieDetails.csproj",
+        "projectUniqueName": "E:\\ProjectAnalysis\\MovieDetails\\MovieDetails.csproj",
         "projectName": "MovieDetails",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\MovieDetails\\MovieDetails.csproj",
+        "projectPath": "E:\\ProjectAnalysis\\MovieDetails\\MovieDetails.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\MovieDetails\\obj\\",
+        "outputPath": "E:\\ProjectAnalysis\\MovieDetails\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

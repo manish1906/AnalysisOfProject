@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MovieDetails
 {
-    class Movie:Base
+     class  Movie:Base
     {
         public int MovieId { get; set; }
         public string MovieName { get; set; }
@@ -41,6 +41,7 @@ namespace MovieDetails
         {
 
             var reader = this.GetReader("select *from Movies");
+            
             
             Console.WriteLine("Movie Name\tRelease Year\tMovie Language\tMovie Director Name\tMovie Rating\tMovie Type");
             while (reader.Read())
