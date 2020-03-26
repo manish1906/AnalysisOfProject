@@ -48,7 +48,6 @@ C:\Users\hp\source\repos\HospitalConsoleApp\bin\Debug\netcoreapp3.1\runtimes\uni
 C:\Users\hp\source\repos\HospitalConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\hp\source\repos\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.csproj.CoreCompileInputs.cache
 E:\ProjectAnalysis\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.csprojAssemblyReference.cache
-E:\ProjectAnalysis\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.csproj.CoreCompileInputs.cache
 E:\ProjectAnalysis\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.AssemblyInfoInputs.cache
 E:\ProjectAnalysis\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.AssemblyInfo.cs
 E:\ProjectAnalysis\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.dll
@@ -96,3 +95,14 @@ E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\n
 E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\ProjectAnalysis\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.csproj.CopyComplete
 E:\ProjectAnalysis\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.genruntimeconfig.cache
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\EntityFramework.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\ProjectAnalysis\HospitalConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\ProjectAnalysis\HospitalConsoleApp\obj\Debug\netcoreapp3.1\HospitalConsoleApp.csproj.CoreCompileInputs.cache
