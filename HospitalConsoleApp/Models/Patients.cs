@@ -18,6 +18,6 @@ namespace HospitalConsoleApp.Models
         public string PatientGender { get; set; }
         public string PatientDeaseas { get; set; }
 
-        public virtual ICollection<Appointments> Appointments { get; set; }
+       public virtual ICollection<Appointments> Appointments { get; set; }
     }
 }

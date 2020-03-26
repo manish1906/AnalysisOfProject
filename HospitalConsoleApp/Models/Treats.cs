@@ -5,6 +5,7 @@ namespace HospitalConsoleApp.Models
 {
     public partial class Treats
     {
+        public int TreatmentId { get; set; }
         public int DoctorId { get; set; }
         public int PatientId { get; set; }
         public int DepartmentId { get; set; }

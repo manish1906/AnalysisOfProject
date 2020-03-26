@@ -6,7 +6,7 @@ namespace HospitalConsoleApp.Models
     public partial class Appointments
     {
         public int AppointmentId { get; set; }
-        public int PatientId { get; set; }
+        public int  PatientId { get; set; }
         public int DoctorId { get; set; }
         public DateTime AppointDateTime { get; set; }
         public string Description { get; set; }

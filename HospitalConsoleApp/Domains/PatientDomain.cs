@@ -12,7 +12,7 @@ namespace HospitalConsoleApp.Domains
         public void AddPatient(Patients patients)
         {
 
-            Console.WriteLine("Enter Patient Name");
+            Console.WriteLine("Enter Patient Id");
             patients.PatientName = Console.ReadLine();
             Console.WriteLine("Enter Patient Address");
             patients.PatientAddres = Console.ReadLine();

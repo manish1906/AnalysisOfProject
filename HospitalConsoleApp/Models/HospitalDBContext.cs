@@ -47,6 +47,7 @@ namespace HospitalConsoleApp.Models
                 entity.Property(e => e.Description)
                     .IsRequired()
                     .IsUnicode(false);
+               
 
                 entity.HasOne(d => d.Doctor)
                     .WithMany(p => p.Appointments)
@@ -181,7 +182,7 @@ namespace HospitalConsoleApp.Models
 
             modelBuilder.Entity<Treats>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.TreatmentId);
 
                 entity.HasOne(d => d.Department)
                     .WithMany()
