@@ -7,11 +7,13 @@ namespace ToysConsoleApp1.Domain
 {
     class PlantDomain:ToyCompanyDBContext
     {
+     //   var m = new ToyCompanyDBContext();
         public void AddPlant(Plants plants)
         {
+            var m = new ToyCompanyDBContext();
             Console.WriteLine("Enter Plant Name");
             plants.PlanName = Console.ReadLine();
-            Plants.Add(plants);
+            m.Plants.Add(plants);
             SaveChanges();
 
 
