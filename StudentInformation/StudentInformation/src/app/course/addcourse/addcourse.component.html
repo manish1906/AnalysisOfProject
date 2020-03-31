@@ -1,0 +1,24 @@
+<p>addcourse works!</p>
+
+
+<form [formGroup]="addcourseFormgroup">
+    <div class="container">
+    
+    <div class="col-md-6 offset-md-3">
+    
+        <div class="form-row">
+        <div class="form-group col-md-12">
+            <label for="inputPassword4">Course Name</label>
+            <input type="text" class="form-control" formControlName="courseName" placeholder="Course Name">
+        </div>
+        <div class="form-group col-md-12">
+            <label for="inputEmail4">Fee</label>
+            <input type="text" class="form-control" formControlName="fee" placeholder="Fee">
+        </div>
+      
+    </div>
+
+         <button (click)="onSubmit()"  class="btn btn-primary btn-block" routerLink="/Course">Add Course</button>
+    </div></div>
+    
+  </form>
