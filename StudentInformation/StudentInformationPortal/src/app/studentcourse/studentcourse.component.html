@@ -1,0 +1,60 @@
+
+<html>
+  <head>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+<body>
+<br/>
+<br/>
+
+<br/>
+<br/>
+<br/>
+
+
+ <div class="container">
+    <div class="">
+  <div class="col-md-6 offset-md-3">
+<table class="table">
+  <thead>
+  <tr>
+    <th><h4>Students Course List</h4></th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <th><button [routerLink]="'/addstudent'" class="btn btn-dark">ADD StudentCourse</button>
+</th>
+  </tr>
+  
+  </thead>
+
+
+  
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">FirstName</th>
+      <th scope="col">LastName</th>
+      <th scope="col">Course</th>
+      <th scope="col">Feestatus</th>
+       <!-- <th scope="col">Password</th> -->
+      <!-- <th scope="col">Edit</th>
+      <th scope="col">Delete</th> -->
+    </tr>
+ 
+  <tr *ngFor="let r of result index as i">
+   
+    <td scope="col">{{i+1}}</td>
+    <td scope="col">{{r.firsName}}</td>
+    <td scope="col">{{r.lastName}}</td>
+    <td scope="col">{{r.courseName}}</td>
+    <td scope="col">{{r.feeStatus}}</td>  
+   
+   
+     
+  </tr>
+</table>
+  </div>
+    </div></div>
+</body>
+</html>

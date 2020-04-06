@@ -1,0 +1,25 @@
+
+<form [formGroup]="scformgroup">
+    <div class="form-group col-md-6">
+        <label>Course Name</label>
+        <select class="form-control" formControlName="course"  >
+    <option value="0" selected>--Select--</option>  
+           <option *ngFor="let r of result" value={{r.courseId}}>{{r.courseName}}</option>
+</select>
+</div>
+
+<div >
+    <label>Fee</label>
+    <br>
+  <div class="form-check form-check-inline">
+    <input  type="radio" formControlName="fee"  name="fee"  value="1">
+<label class="form-check-label" >Paid</label>
+</div>
+<div class="form-check form-check-inline">
+<input  type="radio" name="fee"  value="2" formControlName="fee" >
+<label class="form-check-label" >Not Paid</label>
+</div>
+
+</div>
+<button (click)="Submit()">Submit</button>
+</form>
