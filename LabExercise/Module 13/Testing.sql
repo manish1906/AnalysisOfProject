@@ -16,15 +16,6 @@ SELECT *
 ---------------------------Test the Table-Valued Function ---------------------
 
 
---------------------------------------------------------------------------------
--- Test the function on its own
---
--- The regular expression pattern has the following parts:
---	[fd]	any single character in the set, ie f or d
---	o		literal o
---	[xg]	any single character in the set, ie x or g
---------------------------------------------------------------------------------
-
 SELECT *
 	FROM dbo.RegexMatches(N'The quick brown fox jumped over the lazy dog.', N'[fd]o[xg]');
 
@@ -32,10 +23,7 @@ SELECT *
 
 --------------------------------------------------------------------------------
 -- Search Product color
---
--- The regular expression pattern has the following parts:
---	Silver|Black	Silver or Black
---
+
 --------------------------------------------------------------------------------
 
 SELECT P.ProductID, P.Color, M.match
@@ -46,12 +34,6 @@ SELECT P.ProductID, P.Color, M.match
 
 --------------------------------------------------------------------------------
 -- Search ProductDescription for The and the following word
---
--- The regular expression pattern has the following parts:
---	[Tt]			any single character in the set, ie T or t
---	he				literal he and space
---	[A-Za-z0-9\-]+	one or more characters A-Z or a-z or 0-9 or hyphen
---
 --------------------------------------------------------------------------------
 
 SELECT P.ProductDescriptionID, P.[Description], M.match
@@ -62,12 +44,6 @@ SELECT P.ProductDescriptionID, P.[Description], M.match
 	
 ----------------------------------------------------------------------------
 -- Search ProductDescription for numbers and the following word
---
--- The regular expression pattern has the following parts:
---	[0-9]+			one or more characters in the set 0 to 9
---  [ ]?			optional space
---	[A-Za-z0-9\-]+	one or more characters A-Z or a-z or 0-9 or hyphen
---
 --------------------------------------------------------------------------------
 
 SELECT P.ProductDescriptionID, P.[Description], M.match
